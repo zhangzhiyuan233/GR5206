@@ -1,0 +1,137 @@
+{
+    "clipr::clipr_output" : {
+        "binding" : "clipr_output",
+        "description" : "Copies the console output of a selected expression to the system clipboard",
+        "interactive" : false,
+        "name" : "Output to clipboard",
+        "ordinal" : 7,
+        "package" : "clipr",
+        "title" : ""
+    },
+    "clipr::clipr_result" : {
+        "binding" : "clipr_result",
+        "description" : "Copies the results of a selected expression to the system clipboard",
+        "interactive" : false,
+        "name" : "Value to clipboard",
+        "ordinal" : 6,
+        "package" : "clipr",
+        "title" : ""
+    },
+    "covr::addin_report" : {
+        "binding" : "addin_report",
+        "description" : "Calculates the package test coverage and opens a report, using `covr::report()`",
+        "interactive" : false,
+        "name" : "Calculate package test coverage",
+        "ordinal" : 3,
+        "package" : "covr",
+        "title" : ""
+    },
+    "devtools::test_coverage" : {
+        "binding" : "test_coverage",
+        "description" : "Calculate and report the test coverage for the current package, using `devtools::test_coverage()`.",
+        "interactive" : false,
+        "name" : "Report test coverage for a package",
+        "ordinal" : 15,
+        "package" : "devtools",
+        "title" : ""
+    },
+    "devtools::test_coverage_file" : {
+        "binding" : "test_coverage_file",
+        "description" : "Calculate and report test coverage for the current test file, using `devtools::test_coverage_file()`.",
+        "interactive" : false,
+        "name" : "Report test coverage for a file",
+        "ordinal" : 14,
+        "package" : "devtools",
+        "title" : ""
+    },
+    "devtools::test_file" : {
+        "binding" : "test_file",
+        "description" : "Run the current test file, using `devtools::test_file()`.",
+        "interactive" : false,
+        "name" : "Run a test file",
+        "ordinal" : 13,
+        "package" : "devtools",
+        "title" : ""
+    },
+    "lintr::addin_lint" : {
+        "binding" : "addin_lint",
+        "description" : "Runs lintr::lint on the current file",
+        "interactive" : true,
+        "name" : "Lint current file",
+        "ordinal" : 1,
+        "package" : "lintr",
+        "title" : ""
+    },
+    "lintr::addin_lint_package" : {
+        "binding" : "addin_lint_package",
+        "description" : "Runs lintr::lint_package",
+        "interactive" : true,
+        "name" : "Lint current package",
+        "ordinal" : 2,
+        "package" : "lintr",
+        "title" : ""
+    },
+    "reprex::reprex_addin" : {
+        "binding" : "reprex_addin",
+        "description" : "Run `reprex::reprex()` to prepare a reproducible example for sharing.",
+        "interactive" : true,
+        "name" : "Render reprex...",
+        "ordinal" : 4,
+        "package" : "reprex",
+        "title" : ""
+    },
+    "reprex::reprex_selection" : {
+        "binding" : "reprex_selection",
+        "description" : "Prepare reprex from current selection",
+        "interactive" : false,
+        "name" : "Reprex selection",
+        "ordinal" : 5,
+        "package" : "reprex",
+        "title" : ""
+    },
+    "styler::set_style_transformers" : {
+        "binding" : "set_style_transformers",
+        "description" : "Prompt for and set the style transformers used by all styler addins",
+        "interactive" : true,
+        "name" : "Set style",
+        "ordinal" : 9,
+        "package" : "styler",
+        "title" : ""
+    },
+    "styler::style_active_file" : {
+        "binding" : "style_active_file",
+        "description" : "Pretty-print active file",
+        "interactive" : true,
+        "name" : "Style active file",
+        "ordinal" : 11,
+        "package" : "styler",
+        "title" : ""
+    },
+    "styler::style_active_pkg" : {
+        "binding" : "style_active_pkg",
+        "description" : "Pretty-print active package",
+        "interactive" : true,
+        "name" : "Style active package",
+        "ordinal" : 12,
+        "package" : "styler",
+        "title" : ""
+    },
+    "styler::style_selection" : {
+        "binding" : "style_selection",
+        "description" : "Pretty-print selection",
+        "interactive" : true,
+        "name" : "Style selection",
+        "ordinal" : 10,
+        "package" : "styler",
+        "title" : ""
+    },
+    "vdiffr::vdiffrAddin" : {
+        "binding" : "vdiffrAddin",
+        "description" : "Compare and validate graphical test cases using vdiffr",
+        "interactive" : true,
+        "name" : "Manage visual test cases",
+        "ordinal" : 8,
+        "package" : "vdiffr",
+        "title" : ""
+    }
+}

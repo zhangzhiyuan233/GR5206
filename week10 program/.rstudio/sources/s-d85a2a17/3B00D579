@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1572968949730.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3B00D579",
+    "lastKnownWriteTime" : 1572969472,
+    "last_content_update" : 1572969472,
+    "path" : "~/hw8_temperature.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "419,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
